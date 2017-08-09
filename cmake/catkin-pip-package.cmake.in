@@ -118,6 +118,7 @@ function(catkin_pip_package package_name)
     #set(_PACKAGE_XML_DIRECTORY ${package_path})
 
     # Here we plug back into usual catkin package build flow
-    catkin_package()
+    # TODO: make catkin_pip pass additional args on to catkin_package()
+    #catkin_package()
 
 endfunction()
